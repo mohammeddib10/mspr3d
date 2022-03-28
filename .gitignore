@@ -17,6 +17,8 @@
 
 # Visual Studio Code
 .vscode/*
+.vs/*
+.vsconfig
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
