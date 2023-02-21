@@ -22,6 +22,9 @@ public class SalesforceClientAccount : MonoBehaviour {
         try {
             loginRoutine.getValue();
             Debug.Log("Salesforce login successful.");
+            
+            
+            
         }
         catch (SalesforceConfigurationException e) {
             Debug.Log("Salesforce login failed due to invalid auth configuration");
